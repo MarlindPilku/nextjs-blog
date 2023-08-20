@@ -19,6 +19,7 @@ export default function Home({ allPostsData }) {
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
+        <meta name="google" content="notranslate" key="notranslate" />
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Creare sito web con Enrico Celmeta</p>
